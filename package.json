@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "portto"
+  },
+  "bugs": {
+    "url": "https://github.com/portto/eslint-config-portto/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0"
+  },
+  "deprecated": false,
+  "description": "eslint config",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/portto/eslint-config-portto#readme",
+  "keywords": [
+    "eslint",
+    "config",
+    "portto"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@portto/eslint-config-portto",
+  "peerDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-compat": "^2.3.0",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-react-hooks": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/portto/eslint-config-portto.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
