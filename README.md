@@ -1,5 +1,4 @@
-# eslint-config-portto
-[![npm version](https://badge.fury.io/js/%portto%2Feslint-config-portto.svg)](https://badge.fury.io/js/%portto%2Feslint-config-portto)
+# eslint-config-portto ![npm](https://img.shields.io/npm/v/@portto/eslint-config-portto/latest)
 
 ## Usage
 
