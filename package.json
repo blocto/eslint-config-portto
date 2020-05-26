@@ -65,5 +65,5 @@
     "test": "npm run --silent tests-only",
     "link:eslint": "cd node_modules/eslint && npm link --production && cd -"
   },
-  "version": "0.0.2"
+  "version": "0.1.0"
 }
