@@ -13,7 +13,7 @@ module.exports = {
   },
 
   rules: {
-    /***** Best Practices *****/
+    /** Best Practices **/
 
     // enforces getter/setter pairs in objects
     'accessor-pairs': 'off',
@@ -304,7 +304,7 @@ module.exports = {
     yoda: 'error',
 
 
-    /***** Errors *****/
+    /** Errors **/
 
     // require trailing commas in multiline object literals
     'comma-dangle': ['error', {
@@ -431,7 +431,7 @@ module.exports = {
     'valid-typeof': ['error', { requireStringLiterals: true }],
 
 
-    /***** ES6 *****/
+    /** ES6 **/
 
     // enforces no braces where they can be omitted
     // http://eslint.org/docs/rules/arrow-body-style
@@ -589,13 +589,13 @@ module.exports = {
     'yield-star-spacing': ['error', 'after'],
 
 
-    /***** Strict *****/
+    /** Strict **/
 
     // babel inserts `'use strict';` for us
     strict: ['error', 'never'],
 
 
-    /***** Styles *****/
+    /** Styles **/
 
     // enforce spacing inside array brackets
     'array-bracket-spacing': ['error', 'never'],
@@ -677,10 +677,6 @@ module.exports = {
       SwitchCase: 1,
       VariableDeclarator: 1,
       outerIIFEBody: 1,
-      // MemberExpression: null,
-      // CallExpression: {
-        // parameters: null,
-      // },
       FunctionDeclaration: {
         parameters: 1,
         body: 1
@@ -847,7 +843,7 @@ module.exports = {
 
     // disallow use of unary operators, ++ and -- outside for loop.
     // http://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': ['error', { "allowForLoopAfterthoughts": true }],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
     // disallow certain syntax forms
     // http://eslint.org/docs/rules/no-restricted-syntax
@@ -1008,7 +1004,7 @@ module.exports = {
     // require regex literals to be wrapped in parentheses
     'wrap-regex': 'off',
 
-    /***** Variables *****/
+    /** *** Variables *****/
 
     // enforce or disallow variable initializations at definition
     'init-declarations': 'off',

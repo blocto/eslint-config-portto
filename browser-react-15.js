@@ -1,19 +1,19 @@
 module.exports = {
-  'extends': [
+  extends: [
     './index',
     './rules/compat',
   ].map(require.resolve),
 
-  'env': {
-    'browser': true,
-    'node': true,
-    'jest': true
+  env: {
+    browser: true,
+    node: true,
+    jest: true
   },
 
-  'plugins': ['flowtype'],
+  plugins: ['flowtype'],
 
-  'settings': {
-    'polyfills': [
+  settings: {
+    polyfills: [
       'fetch',
       'promises'
     ]

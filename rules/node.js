@@ -2,8 +2,6 @@ module.exports = {
   rules: {
     'no-console': 0,
 
-    'global-require': 0,
-
     // enforce return after a callback
     'callback-return': 'off',
 

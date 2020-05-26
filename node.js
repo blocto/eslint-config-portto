@@ -1,17 +1,17 @@
 module.exports = {
-  'extends': [
+  extends: [
     './index',
     './rules/node',
   ].map(require.resolve),
 
-  'env': {
-    'node': true,
-    'jest': true,
-    'mocha': true,
+  env: {
+    node: true,
+    jest: true,
+    mocha: true,
   },
 
-  'settings': {
-    'polyfills': [
+  settings: {
+    polyfills: [
       'fetch',
       'promises'
     ]
