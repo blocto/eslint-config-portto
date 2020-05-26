@@ -1,4 +1,4 @@
-# eslint-config-portto ![npm](https://img.shields.io/npm/v/@portto/eslint-config-portto/latest)
+# eslint-config-portto [![npm](https://img.shields.io/npm/v/@portto/eslint-config-portto/latest)](https://www.npmjs.com/package/@portto/eslint-config-portto)
 
 ## Usage
 
