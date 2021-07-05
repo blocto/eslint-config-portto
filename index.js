@@ -5,5 +5,5 @@ module.exports = {
     './rules/react',
   ].map(require.resolve),
 
-  parser: 'babel-eslint'
+  parser: '@babel/eslint-parser'
 };

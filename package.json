@@ -2,13 +2,9 @@
   "author": {
     "name": "portto"
   },
+  "version": "0.1.0",
   "bugs": {
     "url": "https://github.com/portto/eslint-config-portto/issues"
-  },
-  "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb": "^18.1.0"
   },
   "deprecated": false,
   "description": "eslint config",
@@ -24,12 +20,17 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@portto/eslint-config-portto",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@babel/eslint-plugin": "^7.14.5",
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^18.1.0"
+  },
   "devDependencies": {
     "@babel/runtime": "^7.8.7",
-    "babel-preset-airbnb": "^4.4.0",
     "babel-tape-runner": "^3.0.0",
     "eclint": "^2.8.1",
-    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
     "eslint-find-rules": "^3.4.0",
     "eslint-plugin-compat": "^3.7.0",
     "eslint-plugin-flowtype": "^5.1.0",
@@ -43,7 +44,7 @@
     "tape": "^5.0.0-next.4"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
     "eslint-plugin-compat": "^3.7.0",
     "eslint-plugin-flowtype": "^5.1.0",
     "eslint-plugin-import": "^2.20.1",
@@ -64,6 +65,5 @@
     "pretest": "npm run --silent lint",
     "test": "npm run --silent tests-only",
     "link:eslint": "cd node_modules/eslint && npm link --production && cd -"
-  },
-  "version": "0.1.0"
+  }
 }
