@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
-    './index',
+    './rules/base',
+    './rules/imports',
     './rules/node',
   ].map(require.resolve),
 
